@@ -24,7 +24,7 @@ $(function(){
         c2i = 0;
     });
 
-    c2btn.eq(0).click(function(){
+    c2btn.eq(1).click(function(){
         c2i = 0;
         for(i = 0; i < 7; i++){ //현재 이미지 상태 저장
             imgs[i] = c2Img.eq(i).css('backgroundImage');
@@ -39,7 +39,7 @@ $(function(){
             c2txt.eq(i).html(txt[c2i]);
         }          
     });
-    c2btn.eq(1).click(function(){
+    c2btn.eq(0).click(function(){
         c2i=6;
         if(c2i < 0){
             c2i = 6;
