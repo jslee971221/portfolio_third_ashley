@@ -1,0 +1,255 @@
+
+div.hdrWrap{
+    padding-top: 20px;
+}
+div.hdrWrap>div.header{
+    max-width: 380px;
+}
+div.hdrWrap>div.header>div.hdrLeft>h1{
+    width: calc(100% / 4);
+    height: 20px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    margin-left: 0px;
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    line-height: 40px;
+    margin-left: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    display: none;
+}
+div.mainWrap{
+    height: 400px;
+    background-image: url('../images/main_mo.png');
+}
+div.mainWrap>div.main{
+    max-width: 380px;
+}
+div.mainWrap>div.main>div.mainLeft{
+    margin-top: 50px;
+}
+div.mainWrap>div.main>div.mainLeft>h2{
+    font-size: 35px;
+    line-height: 40px;
+}
+div.mainWrap>div.main>div.mainLeft>p{
+    display: none;
+}
+div.cntWrap{
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.header>p{
+    margin-top: 0px;
+    font-size: 10px;
+}
+div.cntWrap>div.content{
+    max-width: 380px;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    height: 280px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts>h2{
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 60px;
+    padding-left: calc(100% / 2 * 0.3);
+}
+div.cntWrap>div.content.cnt01>div.section>ul.paging{
+    left: calc(100% / 4 * 0.65);
+    bottom: 0;
+    right: inherit;
+}
+div.cntWrap>div.content.cnt01>div.section>ul.paging>li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+div.cntWrap>div.content.cnt01>div.section>ul.paging>li.show{
+    width: 15px;
+    height: 15px;
+    margin-top: 12.5px;
+}
+div.cntWrap>div.content.cnt02>div.header>div.bgImg{
+    height: 200px;
+    margin-left: calc((100vw - 380px) / -2);
+}
+div.cntWrap>div.content.cnt02>div.section{
+    margin-top: -120px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artView>div.image{
+    height: 200px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artView{
+    height: 200px;
+   
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artView>div.texts{
+    width: calc(50% - 20px);
+    padding: 0px;
+    padding-left: 15px;
+    margin-top: -40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artThumb{
+    height: 80px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artThumb>div.image{
+    height: 80px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article{
+    width: calc(100% / 4 * 3);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.image{
+    height: 40px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts{
+    width: 70%;
+    margin-top: -40px;
+    margin-left: calc(100% / 4);
+}
+div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>ul.texts{
+    font-size: 10px;
+    line-height: 20px;
+    height: 40px;
+    padding: 0;
+}
+div.bnrWrap:nth-last-child(4){
+    margin-top: 40px;
+    height: 240px;
+}
+div.bnrWrap>div.banner.bnr01{
+    max-width: 380px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight{
+    height: 120px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid>div.image{
+    height: 120px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts{
+    width: 100%;
+    left: 0;
+    top: 15px;
+    height: 120px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2{
+    font-size: 24px;
+    line-height: 25px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2:nth-child(1){
+    width: calc(100% / 4 * 3);
+    text-align: center;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2:nth-child(2){
+    width: calc(100% / 4 * 2);
+    margin-left: 18px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>div.btn{
+    width: calc(100% / 4 * 0.8);
+    line-height: 15px;
+    left: calc(100% / 4 * 1.7);
+    top: 30px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h5{
+    padding-left: 18px;
+    margin-top: 0px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>p{
+    padding-left: 18px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrLeft{
+    height: 120px;
+    top: 120px;
+}
+div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.ovrGrid>div.image{
+    height: 120px;
+    background-image: url('../images/bnr01.png');
+}
+div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article>div.image{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
+    height: 120px;
+}
+div.cntWrap>div.content.cnt04>div.section div.article:hover>div.texts{
+    margin-top: -120px;
+    padding-top: 30px;
+    font-size: 15px;
+}
+div.bnrWrap:nth-last-child(2){
+    margin-top: 40px;
+}
+div.bnrWrap>div.banner.bnr02{
+    max-width: 380px;
+}
+div.bnrWrap>div.banner.bnr02>h2{
+    width: 100%;
+    float: none;
+}
+div.bnrWrap>div.banner.bnr02>h2>br{
+    display: none;
+}
+div.bnrWrap>div.banner.bnr02>div.btn{
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.ftrWrap{
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer{
+    max-width: 380px;
+}
+div.ftrWrap::before{
+    height: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    margin-top: -40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 4);
+    line-height: 10px;
+    margin-top: 15px;
+    font-size: 8px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: 0px;
+    margin-left: 10px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 4 * 1.8);
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    padding: 20px 0 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 4);
+    height: 20px;
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    font-size: 8px;
+    line-height: 20px;
+    width: 100%;
+    padding: 0 10px;
+    height: 80px;
+    overflow: hidden;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p>br{
+    display: none;
+}

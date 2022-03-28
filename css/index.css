@@ -1,6 +1,9 @@
 body{
     overflow-x: hidden;
 }
+.btn{
+    cursor: pointer;
+}
 div.hdrWrap{
     color: #fff;
     position: relative;
@@ -45,6 +48,7 @@ div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
     font-size: 11px;
     margin-left: 30px;
     line-height: 60px;
+    cursor: pointer;
 }
 div.hdrWrap>div.header>div.hdrRight{
     width: calc(100% / 12 * 2.5);
@@ -60,6 +64,7 @@ div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
     font-size: 9px;
     line-height: 60px;
     margin-left: 30px;
+    cursor: pointer;
 }
 div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(1){
     background-color: #fff;
@@ -204,6 +209,9 @@ div.cntWrap>div.content.cnt01>div.section::after{
     display: block;
     clear: both;
 }
+div.cntWrap>div.content.cnt01>div.section div.image{
+    box-shadow: 2px 2px 4px gray;
+}
 div.cntWrap>div.content.cnt01>div.section>div.artLeft{
     width: calc(100% / 12 * 10);
     float: left;
@@ -221,6 +229,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.image{
     background-size: cover;
     background-image: url('../images/cnt01_01.jpg');
     float: left;
+    
 }
 div.cntWrap>div.content.cnt01>div.section>div.artLeft>div.article>div.texts{
     width: calc(100% / 10 * 3);
@@ -245,6 +254,7 @@ div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 }
 div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.image.i1{
     background-image: url('../images/cnt01_02.jpg');
@@ -255,7 +265,9 @@ div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.image.i2{
 div.cntWrap>div.content.cnt01>div.section>div.artRight>div.article>div.image.i3{
     background-image: url('../images/cnt01_04.jpg');
 }
-
+div.cntWrap>div.content.cnt01>div.section>ul.paging{
+    display: none;
+}
 
 div.cntWrap>div.content.cnt02>div.header>div.bgImg{
     width: 100vw;
@@ -337,6 +349,7 @@ div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artThumb>div.image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    cursor: pointer;
 
 }
 div.cntWrap>div.content.cnt02>div.section>div.artGroup>div.artThumb>div.image.i1{
@@ -402,7 +415,7 @@ div.cntWrap>div.content.cnt03>div.section>div.article>div.texts>ul.texts{
 
 }
 
-div.bnrWrap:nth-last-child(4){
+div.bnrWrap:nth-child(6){
     margin-top: 80px;
     height: 320px;
 }
@@ -481,6 +494,11 @@ div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>div.btn{
 div.cntWrap>div.content.cnt04>div.section{
     margin-top: 40px;
 }
+div.cntWrap>div.content.cnt04>div.section::after{
+    content: '';
+    display: block;
+    clear: both;
+}
 div.cntWrap>div.content.cnt04>div.section div.article{
     width: calc(100% / 3);
     height: 240px;
@@ -518,31 +536,26 @@ div.cntWrap>div.content.cnt04>div.section>div.artTop>div.article>div.image{
     background-image: url('../images/brand_1.PNG');
     height: 240px;
 }
-div.cntWrap>div.content.cnt04>div.section>div.artBtm::after{
-    content: '';
-    display: block;
-    clear: both;
-}
-div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article{
+div.cntWrap>div.content.cnt04>div.section>div.article{
     float: left;
 }
-div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article>div.image{
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 240px;
 }
-div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article>div.image.i1{
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image.i1{
     background-image: url('../images/brand_2.PNG');
 }
-div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article>div.image.i2{
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image.i2{
     background-image: url('../images/brand_3.PNG');
 }
-div.cntWrap>div.content.cnt04>div.section>div.artBtm>div.article>div.image.i3{
+div.cntWrap>div.content.cnt04>div.section>div.article>div.image.i3{
     background-image: url('../images/brand_4.PNG');
 }
 
-div.bnrWrap:nth-last-child(2){
+div.bnrWrap:nth-child(8){
     margin-top: 80px;
 }
 div.bnrWrap>div.banner.bnr02{
@@ -574,6 +587,9 @@ div.bnrWrap>div.banner.bnr02>h2{
     font-size: 20px;
     line-height: 20px;
     font-weight: 700;
+}
+div.bnrWrap>div.banner.bnr02>h2>br{
+    display: none;
 }
 div.bnrWrap>div.banner.bnr02>div.btn{
     width: calc(100% / 12 * 4.5);
@@ -624,6 +640,7 @@ div.ftrWrap>div.footer>div.ftrTop>h4{
     font-size: 12px;
     line-height: 80px;
 }
+
 div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
     margin-left: calc(100% / 12 * 3);
 }
@@ -650,7 +667,7 @@ div.ftrWrap>div.footer>div.ftrBtm>select{
     width: calc(100% / 12 * 2);
     height: 40px;
     color: #fff;
-    float: left;
+    float: right;
     background-color: #222;
     border: 1px solid white;
     text-align: center;
