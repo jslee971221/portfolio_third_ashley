@@ -1,0 +1,104 @@
+div.hdrWrap{
+    background-color: #222;
+}
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+}
+div.hdrWrap>div.header>div.hdrLeft{
+    float: none;
+    width: 100%;
+}
+div.hdrWrap>div.header>div.hdrLeft>h1{
+    width: calc(100% / 8 * 1.5);
+    margin: 0 auto;
+    height: 40px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    float: none;
+    width: 100%;
+    margin-left: calc(100% / 8 * 2 - 20px);
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    font-size: 15px;
+    line-height: 80px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    width: 60%;
+    margin: 0 auto;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
+    display: none;
+    margin-left: 0;
+    font-size: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(4){
+    display: block;
+}
+div.mainWrap{
+    height: 120px;
+    margin-top: 0px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>h2{
+    padding-top: 20px;
+}
+div.cntWrap{
+    margin-top: 0px;
+}
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content>div.header>div.texts>h5>br{
+    display: block;
+}
+div.cntWrap>div.content>div.header>div.bgImg{
+    height: 120px;
+    margin-left: calc((100vw - 700px) / -2);
+}
+
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 8 * 1.5);
+    margin-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: calc(100% / 8 * 1.5);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 8 * 2.3);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(3){
+    border: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    width: calc(100% / 8 * 6);
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 8 * 2 - 20px);
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}

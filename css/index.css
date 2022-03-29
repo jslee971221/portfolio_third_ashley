@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200&display=swap');
 body{
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 .btn{
     cursor: pointer;
@@ -106,6 +108,7 @@ div.mainWrap>div.main>div.mainLeft>h2{
     color: #fff;
     text-shadow: 3px 3px 3px gray;
     margin-left: calc(100% / 7 * 2);
+    font-family: 'DM Serif Display', serif;
 }
 div.mainWrap>div.main>div.mainLeft>h2>span{
     color: #f5f5bf;
@@ -193,7 +196,7 @@ div.cntWrap>div.content>div.header>h2::before{
 div.cntWrap>div.content>div.header>h2{
     font-size: 25px;
     line-height: 60px;
-    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
 }
 div.cntWrap>div.content>div.header>p{
     font-size: 12px;
@@ -473,6 +476,7 @@ div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts{
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2{
     font-size: 35px;
     line-height: 40px;
+    font-family: 'DM Serif Display', serif;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2:nth-child(2){
     color: #151e63;
@@ -586,7 +590,7 @@ div.bnrWrap>div.banner.bnr02>h2{
     margin-left: calc(100% / 12 * 2 - 20px);
     font-size: 20px;
     line-height: 20px;
-    font-weight: 700;
+    font-family: 'DM Serif Display', serif;
 }
 div.bnrWrap>div.banner.bnr02>h2>br{
     display: none;
