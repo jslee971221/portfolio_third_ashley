@@ -1,3 +1,6 @@
+body, html{
+    overflow-x: hidden;
+}
 div.hdrWrap{
     background-color: #222;
 }
@@ -10,7 +13,7 @@ div.hdrWrap>div.header>div.hdrLeft{
     float: none;
     width: 100%;
 }
-div.hdrWrap>div.header>div.hdrLeft>h1{
+div.hdrWrap>div.header>div.hdrLeft h1{
     width: calc(100% / 8 * 1.5);
     margin: 0 auto;
     height: 40px;
@@ -69,6 +72,102 @@ div.cntWrap>div.content>div.header>div.bgImg{
     margin-left: calc((100vw - 700px) / -2);
 }
 
+div.cntWrap>div.content>div.header>div.texts{
+    width: 50%;
+}
+div.cntWrap>div.content>div.header>div.texts>p{
+    width: 150%;
+    margin-left: -25%;
+}
+
+div.cntWrap>div.content>div.section>div.artTop{
+    width: 120vw;
+    margin-left: calc((120vw - 700px) / -2);
+}
+div.cntWrap>div.content>div.section>div.artMid{
+    width: calc(100% / 8 * 6);
+    position: relative;
+    height: 522x;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.btns{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 140px;
+    font-size: 30px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.btns>i{
+    line-height: 40px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.btns>i:nth-child(1){
+    float: left;
+    margin-left: 10px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.btns>i:nth-child(2){
+    float: right;
+    margin-right: 10px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image{
+    width: 100%;
+    float: none;
+    height: 320px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts{
+    width: 100%;
+    float: none;
+    padding-left: 0;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h3{
+    float: left;
+    width: calc(100% / 6 * 2);
+    height: 160px;
+    text-align: center;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h3>br{
+    display: block;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h5{
+    width: calc(100% / 6 * 4 - 20px);
+    margin-left: 20px;
+    float: left;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>p{
+    width: calc(100% / 6 * 4 - 20px);
+    margin-left: 20px;
+    float: left;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn{
+    width: calc(100% / 6);
+    margin-left: 20px;
+    float: left;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn>i{
+    margin-left: 10px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn>span{
+    margin-left: 20px;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.artGroup>div.article>div.texts>h3>br{
+    display: block;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.artGroup{
+    margin-top: 39px;
+}
+
+div.cntWrap>div.content>div.section>div.artBtm>div.artGroup{
+    width: calc(100% / 8 * 6 + 20px);
+    overflow: hidden;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.artGroup>div.article{
+    width: calc(100%  / 3 - 20px);
+    overflow: hidden;
+}
 div.ftrWrap>div.footer{
     width: 90%;
     max-width: 700px;

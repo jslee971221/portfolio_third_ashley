@@ -5,7 +5,7 @@ div.hdrWrap{
 div.hdrWrap>div.header{
     max-width: 380px;
 }
-div.hdrWrap>div.header>div.hdrLeft>h1{
+div.hdrWrap>div.header>div.hdrLeft h1{
     width: calc(100% / 4);
     height: 20px;
 }
@@ -146,7 +146,7 @@ div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2{
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2:nth-child(1){
     width: calc(100% / 4 * 3);
-    text-align: center;
+    margin-left: 18px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts>h2:nth-child(2){
     width: calc(100% / 4 * 2);

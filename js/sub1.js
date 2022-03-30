@@ -1,11 +1,13 @@
 $(function(){
     var thumb = $('.artBtm .article');
     var view = $('.artMid .article')
-    var likes = $('.article .btn');
     var more = $('.section>.btn');
     var i = 0;
     var counter = 1;
     var likec = 1;
+    var slideBtns = $('.artMid .btns i');
+    var slideI = 0;
+    var artGroup = $('.artMid .artGroup');
     
     thumb.click(function(){
         var th = $(this);
@@ -51,4 +53,12 @@ $(function(){
         }
         counter *= -1;
     });
+
+    
+    slideBtns.first().click(function(){
+        slideI++;
+        artGroup.css('marginLeft', -100 * slideI + '%');
+    });
+
+
 });

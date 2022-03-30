@@ -1,0 +1,133 @@
+div.hdrWrap{
+    padding-top: 20px;
+}
+div.hdrWrap>div.header{
+    max-width: 380px;
+}
+div.hdrWrap>div.header>div.hdrLeft h1{
+    width: calc(100% / 4);
+    height: 20px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    margin-left: 0px;
+    width: 95%;
+    margin: 0 auto;;
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    line-height: 40px;
+    margin-left: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    display: none;
+}
+div.mainWrap{
+    height: 80px;
+}
+div.mainWrap>div.main{
+    max-width: 380px;
+}
+div.mainWrap>div.main>h2{
+    padding-top: 10px;
+}
+
+div.cntWrap>div.content>div.header>div.bgImg{
+    margin-left: calc((100vw - 380px) / -2);
+}
+div.cntWrap>div.content>div.header>div.texts{
+    margin-top: -40px;
+    width: calc(50% + 20px);
+    padding-bottom: 40px;
+}
+div.cntWrap>div.content>div.header>div.texts>h2{
+    font-size: 12px;
+    color: #333;
+    line-height: 40px;
+}
+div.cntWrap>div.content>div.header>div.texts>h5{
+    font-size: 28px;
+    margin-top: 40px;
+}
+div.cntWrap>div.content>div.header>div.texts>p{
+    width: 120%;
+    margin-left: -10%;
+    margin-top: 0px;
+}
+div.cntWrap>div.content>div.section>div.artTop{
+    margin-left: calc((120vw - 380px) / -2);
+}
+div.cntWrap>div.content>div.section>div.artTop>div.article>div.image{
+    height: 80px;
+}
+div.cntWrap>div.content>div.section>div.artMid{
+    width: 100%;
+    margin-top: 40px;
+    height: 442px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h3{
+    width: calc(50% - 20px);
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h5{
+    width: calc(50%);
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>p{
+    width: calc(50%);
+}
+div.cntWrap>div.content>div.section>div.artMid>div.btns{
+    top: 100px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn{
+    width: calc(25% - 20px);
+}
+div.cntWrap>div.content>div.section>div.artBtm{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.btn{
+    display: none;
+}
+div.ftrWrap{
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer{
+    max-width: 380px;
+}
+div.ftrWrap::before{
+    height: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    margin-top: -40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 4);
+    line-height: 10px;
+    margin-top: 15px;
+    font-size: 8px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: 0px;
+    margin-left: 10px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 4 * 1.8);
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    padding: 20px 0 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 4);
+    height: 20px;
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    font-size: 8px;
+    line-height: 20px;
+    width: 100%;
+    padding: 0 10px;
+    height: 80px;
+    overflow: hidden;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p>br{
+    display: none;
+}

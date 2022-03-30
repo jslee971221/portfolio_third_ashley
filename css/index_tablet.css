@@ -13,7 +13,7 @@ div.hdrWrap>div.header>div.hdrLeft{
     float: none;
     width: 100%;
 }
-div.hdrWrap>div.header>div.hdrLeft>h1{
+div.hdrWrap>div.header>div.hdrLeft h1{
     width: calc(100% / 8 * 1.5);
     margin: 0 auto;
     height: 40px;

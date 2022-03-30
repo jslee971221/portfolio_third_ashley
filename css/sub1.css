@@ -3,6 +3,9 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+h2, h3{
+    font-family: 'DM Serif Display', serif;
+}
 .btn{
     cursor: pointer;
 }
@@ -29,7 +32,7 @@ div.hdrWrap>div.header>div.hdrLeft{
     width: calc(100% / 12);
     float: left;
 }
-div.hdrWrap>div.header>div.hdrLeft>h1{
+div.hdrWrap>div.header>div.hdrLeft h1{
     width: 100%;
     height: 60px;
     background-position: center;
@@ -185,29 +188,68 @@ div.cntWrap>div.content>div.section>div.artTop>div.article>div.image.i4{
     background-image: url('../images/sub_1/sub-cnt01-04.png');
 }
 div.cntWrap>div.content>div.section>div.artMid{
-    margin-top: 80px;
-}
-div.cntWrap>div.content>div.section>div.artMid>div.article{
-    width: calc(100% / 12 * 10);
+    width: calc(100% / 12 * 10 + 20px);
     margin: 0 auto;
+    margin-top: 80px;
+    overflow: hidden;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article::after{
+div.cntWrap>div.content>div.section>div.artMid>div.btns{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup{
+    width: 1000%;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup::after{
     content: '';
     display: block;
     clear: both;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.image{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article{
+    width: calc(100% / 10);
+    float: left;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image{
     width: 50%;
     float: left;
     height: 280px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../images/sub_1/sub-cnt02-thum01.png');
     position: relative;
     box-shadow: 2px 2px 4px gray;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.image>div.btn{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i1{
+    background-image: url('../images/sub_1/sub-cnt02-thum01.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i2{
+    background-image: url('../images/sub_1/sub-cnt02-thum02.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i3{
+    background-image: url('../images/sub_1/sub-cnt02-thum03.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i4{
+    background-image: url('../images/sub_1/sub-cnt02-thum04.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i5{
+    background-image: url('../images/sub_1/sub-cnt02-thum05.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i6{
+    background-image: url('../images/sub_1/sub-cnt02-thum06.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i7{
+    background-image: url('../images/sub_1/sub-cnt02-thum07.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i8{
+    background-image: url('../images/sub_1/sub-cnt02-thum08.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i9{
+    background-image: url('../images/sub_1/sub-cnt02-thum09.png');
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image.i0{
+    background-image: url('../images/sub_1/sub-cnt02-thum10.png');
+}
+
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image>div.btn{
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -215,47 +257,52 @@ div.cntWrap>div.content>div.section>div.artMid>div.article>div.image>div.btn{
     width: 40px;
     border-radius: 50%;
     background-color: #fff;
-    line-height: 40px;
     text-align: center;
     font-size: 30px;
     color: #222;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.image>div.btn>i{
+    line-height: 40px;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts{
     width: 50%;
     float: left;
     padding-top: 40px;
     padding-left: calc(100% / 10);
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>h3{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h3{
     font-size: 20px;
     font-weight: 700;
     line-height: 40px;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>h5{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h3>br{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>h5{
     line-height: 40px;
     font-size: 13px;
     color: #333;
     font-weight: 700;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>p{
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>p{
     color: #333;
     font-size: 13px;
     line-height: 20px;
     height: 60px;
     overflow: hidden;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>div.btn{
-    width: calc(100% / 5);
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn{
+    width: calc(100% / 5 * 1.5);
     line-height: 40px;
     border: 1px solid #333;
     border-radius: 18px;
     margin-top: 20px;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>div.btn>i{
-    margin-left: 10px;
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn>i{
+    margin-left: 20px;
 }
-div.cntWrap>div.content>div.section>div.artMid>div.article>div.texts>div.btn>span{
-    margin-left: 5px;
+div.cntWrap>div.content>div.section>div.artMid>div.artGroup>div.article>div.texts>div.btn>span{
+    margin-left: 40px;
 }
 div.cntWrap>div.content>div.section>div.artBtm>div.artGroup{
     margin: 0 auto;
@@ -285,6 +332,9 @@ div.cntWrap>div.content>div.section>div.artBtm>div.artGroup>div.article>div.imag
     display: none;
 }
 div.cntWrap>div.content>div.section>div.artBtm>div.artGroup>div.article>div.texts{
+    display: none;
+}
+div.cntWrap>div.content>div.section>div.artBtm>div.artGroup>div.article>div.texts>h3>br{
     display: none;
 }
 div.cntWrap>div.content>div.section>div.artBtm>div.artGroup:nth-child(1)>div.article>div.image.i1{
