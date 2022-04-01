@@ -70,9 +70,15 @@ $(function(){
         }
         for(var i = 0; i < j; i++){
             c1Index = infiSlideRight(c1ImgGroup, c1Index, c1Li);
-            c1Txts.find('.txt:first').fadeOut(0, function(){
+            c1Txts.find('.txt:first').animate({
+                opacity : 0,
+                display : 'none'
+            }, 0, function(){
                 $(this).appendTo(c1Txts);
-                $(this).fadeIn(500);
+                $(this).animate({
+                    opacity : 1,
+                    display : 'block'
+                }, 500);
             });
         }
     });

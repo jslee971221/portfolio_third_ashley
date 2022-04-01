@@ -317,7 +317,63 @@ div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
     font-size: 13px;
     line-height: 40px;
 }
-
+div.bnrWrap>div.banner.bnr01>div.map{
+    width: calc(100% / 12 * 4);
+    margin-left: calc(100% / 12 * 4);
+    position: relative;
+    height: 800px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>:hover>i{
+    color: #fff;
+    font-size: 35px;
+    line-height: 35px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>:hover::before{
+    content: '경기도 부천시 송내대로 239 (상동) 부천뉴코아아울렛 4층';
+    display: block;
+    width: 500%;
+    height: 40px;
+    line-height: 20px;
+    font-size: 12px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin-left: -200%;
+    margin-top: -40px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div{
+    width: 40px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b1{
+    position: absolute;
+    left: calc(100% / 4 * 1.5);
+    top: 60px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b2{
+    position: absolute;
+    left: calc(100% / 4 * 2.24);
+    top: 125px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b3{
+    position: absolute;
+    left: calc(100% / 4 * 3.28);
+    top: 150px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b4{
+    position: absolute;
+    left: calc(100% / 4 * 1.8);
+    top: 205px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b5{
+    position: absolute;
+    left: calc(100% / 4 * 2.24);
+    top: 230px;
+}
+div.bnrWrap>div.banner.bnr01>div.map i{
+    font-size: 30px;
+    line-height: 30px;
+    color: #222781;
+}
 
 div.cntWrap>div.content.cnt02>div.section>div.article::after{
     content: '';

@@ -1,0 +1,307 @@
+div.hdrWrap{
+    padding-top: 20px;
+}
+div.hdrWrap>div.header{
+    max-width: 380px;
+}
+div.hdrWrap>div.header>div.hdrLeft h1{
+    width: calc(100% / 4);
+    height: 20px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    margin-left: 0px;
+    width: 95%;
+    margin: 0 auto;;
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    line-height: 40px;
+    margin-left: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    display: none;
+}
+div.mainWrap{
+    height: 80px;
+}
+div.mainWrap>div.main{
+    max-width: 380px;
+}
+div.mainWrap>div.main>h2{
+    padding-top: 10px;
+}
+div.cntWrap>div.content{
+    max-width: 380px;
+}
+div.bnrWrap>div.banner{
+    max-width: 380px;
+}
+div.bnrWrap{
+    margin-top: 40px;
+}
+div.bnrWrap:nth-child(4){
+    margin-top: 40px;
+    height: 400px;
+}
+div.cntWrap{
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.header{
+    margin-left: 0px;
+}
+div.cntWrap>div.content h2{
+    width: calc(100% / 4);
+    margin-left: 20px;
+
+}
+
+div.cntWrap>div.content.cnt01>div.section>div.texts{
+    width: calc(50% - 20px);
+    position: relative;
+    margin-top: 0px;
+    height: 240px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts p{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>ul.bar{
+    width: 200%;
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>ul.bar>li{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns{
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div{
+    margin-left: 0px;
+    width: 50%;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div>i{
+    line-height: 60px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div span{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts{
+    height: 80px;
+    width: calc(100% - 20px);
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts>div.txt{
+    margin-top: 0px;
+    margin-top: 20px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts>div.txt>h3{
+    line-height: 20px;
+    font-size: 13px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image{
+    margin-top: -40px;
+    position: relative;
+    height: 320px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView>div.imgGroup>div.image{
+    height: 280px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>div.btns{
+    display: none;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging{
+    width: 35%;
+    height: 40px;
+    position: absolute;
+    bottom: -10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging>li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin-top: 2.5px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging>li.show{
+    width: 15px;
+    height: 15px;
+    background-color: #151e63;
+    margin-top: 0px;
+}
+
+div.bnrWrap>div.banner.bnr01{
+    position: relative;
+}
+div.bnrWrap>div.banner.bnr01>div.texts{
+    margin-left: 0px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h4{
+    font-size: 13px;
+    margin-top: 15px;
+    height: 65px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
+    width: calc(100% / 4);
+    margin: 0;
+    font-size: 12px;
+    margin-top: 10px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b1{
+    top: 120px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b2{
+    top: 160px;
+}
+div.bnrWrap>div.banner.bnr01>div.map>div.b3{
+    top: 180px;
+}
+div.bnrWrap>div.banner.bnr01>div.map{
+    height: 250px;
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: calc(100% / 4);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    width: 50%;
+    height: 240px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    width: calc(50% - 20px);
+    padding-top: 40px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+div.bnrWrap:nth-child(6){
+    height: 280px;
+    position: relative;
+}
+div.bnrWrap:nth-child(6)::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+
+}
+div.bnrWrap>div.banner.bnr02>div.texts{
+    margin-top: 0px;
+    padding-left: 0px;
+}
+div.bnrWrap>div.banner.bnr02>div.texts>ul.tag{
+    width: 100%;
+}
+div.bnrWrap>div.banner.bnr02>div.texts>ul.tag>li{
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px;
+    line-height: 30px;
+    border-radius: 12px;
+}
+div.bnrWrap>div.banner.bnr02>div.texts>ul.tag>li:nth-child(3)~li{
+    display: none;
+}
+
+div.bnrWrap>div.banner.bnr02>div.video>video{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+    width: 50%;
+}
+div.cntWrap>div.content.cnt03>div.header>h5{
+    width: 80%;
+    font-size: 12px;
+}
+div.cntWrap>div.content.cnt03>div.section{
+    height: 380px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.btm{
+    height: 320px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.btm>div.article>div.image{
+    height: 240px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li{
+    width: 10px;
+    height: 10px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li.show{
+    width: 15px;
+    height: 15px;
+}
+div.cntWrap:nth-child(7){
+    margin-top: 160px;
+}
+div.ftrWrap{
+    margin-top: 40px;
+}
+div.ftrWrap>div.footer{
+    max-width: 380px;
+}
+div.ftrWrap::before{
+    height: 40px;
+}
+div.ftrWrap>div.footer>div.ftrTop{
+    margin-top: -40px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 4);
+    line-height: 10px;
+    margin-top: 15px;
+    font-size: 8px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: 0px;
+    margin-left: 10px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 4 * 1.8);
+}
+div.ftrWrap>div.footer>div.ftrBtm{
+    padding: 20px 0 40px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 4);
+    height: 20px;
+    font-size: 10px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    font-size: 8px;
+    line-height: 20px;
+    width: 100%;
+    padding: 0 10px;
+    height: 80px;
+    overflow: hidden;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p>br{
+    display: none;
+}

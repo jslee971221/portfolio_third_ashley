@@ -1,0 +1,297 @@
+body, html{
+    overflow-x: hidden;
+}
+div.hdrWrap{
+    background-color: #222;
+}
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+}
+div.hdrWrap>div.header>div.hdrLeft{
+    float: none;
+    width: 100%;
+}
+div.hdrWrap>div.header>div.hdrLeft h1{
+    width: calc(100% / 8 * 1.5);
+    margin: 0 auto;
+    height: 40px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    float: none;
+    width: 100%;
+    margin-left: calc(100% / 8 * 2 - 20px);
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    font-size: 15px;
+    line-height: 80px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    width: 60%;
+    margin: 0 auto;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
+    display: none;
+    margin-left: 0;
+    font-size: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(4){
+    display: block;
+}
+div.mainWrap{
+    height: 120px;
+    margin-top: 0px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>h2{
+    padding-top: 20px;
+}
+
+div.cntWrap>div.content{
+    width: 90%;
+    max-width: 700px;
+}
+div.cntWrap>div.content.cnt01>div.header{
+    margin-left: calc(100% / 8);
+}
+div.cntWrap>div.content.cnt01>div.section>div.texts{
+    padding: 0;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image{
+    height: 360px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>div.btns{
+    color: #fff;
+}
+div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView{
+    width: 100%;
+}
+
+div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView>div.imgGroup>div.image{
+    height: 360px;
+}
+div.bnrWrap>div.banner{
+    width: 90%;
+    max-width: 700px;
+}
+div.bnrWrap:nth-child(4){
+    height: 560px;
+    margin-top: 160px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts{
+    margin-left: calc(100% / 8);
+    width: 100%;
+}
+div.bnrWrap>div.banner h2{
+    font-size: 32px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h4{
+    margin-top: 0px;
+    width: 70%;
+    margin-top: 5px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h4>br{
+    display: block;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>div.btn{
+    width: calc(100% / 8 + 20px);
+    margin-top: 0px;
+    margin-left: 30px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+div.bnrWrap>div.banner.bnr01>div.map{
+    height: 700px;
+    margin-top: 40px;
+}
+
+div.cntWrap>div.content.cnt02>div.section>div.article>div.image{
+    width: calc(100% / 8 * 5 - 20px);
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts{
+    width: calc(100% / 8 * 3);
+    margin-left: 20px;
+    padding-top: 60px;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>h3{
+    font-size: 32px;
+    color: #333;
+}
+div.cntWrap>div.content.cnt02>div.section>div.article>div.texts>p{
+    margin-top: 40px;
+}
+
+div.bnrWrap:nth-child(6){
+    height: 600px;
+}
+div.bnrWrap>div.banner.bnr02>div.texts{
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding-top: 40px;
+}
+div.bnrWrap>div.banner.bnr02>div.texts>ul.tag{
+    width: calc(100% / 8 * 3);
+    margin: 0 auto;
+}
+div.bnrWrap>div.banner.bnr02>div.video{
+    width: 100%;
+    float: none;
+    text-align: center;
+}
+div.bnrWrap>div.banner.bnr02>div.video>video{
+    width: calc(100% / 8 * 6);
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt03>div.header{
+    text-align: center;
+}
+div.cntWrap>div.content.cnt03>div.header>h2{
+    float: none;
+    margin: 0 auto;
+}
+div.cntWrap>div.content.cnt03>div.header>h5{
+    width: 60%;
+    line-height: 40px;
+    float: none;
+    margin: 0 auto;
+}
+
+div.cntWrap>div.content.cnt03>div.section{
+    position: relative;
+    height: 520px;
+}
+div.cntWrap>div.content.cnt03>div.section div.article>div.texts{
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft{
+    width: 100%;
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 480px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight{
+    width: 100%;
+    float: none;
+    margin-left: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 480px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.btm{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 480px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top>div.article{
+    float: none;
+    width: 100%;
+}
+div.cntWrap>div.content.cnt03>div.section div.article{
+    width: 100%;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top>div.article>div.image{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.btm>div.article>div.image{
+    height: 400px;
+}
+div.cntWrap>div.content.cnt03>div.section>div.artRight>div.top>div.article:nth-child(2){
+    margin-left: 0px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging{
+    height: 40px;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+    margin-top: 2.5px;
+}
+div.cntWrap>div.content.cnt03>div.section>ul.paging>li.show{
+    width: 20px;
+    height: 20px;
+    background-color: #151e63;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 8 * 1.5);
+    margin-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: calc(100% / 8 * 1.5);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 8 * 2.3);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(3){
+    border: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    width: calc(100% / 8 * 6);
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 8 * 2 - 20px);
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}
