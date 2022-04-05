@@ -4,9 +4,9 @@ $(function(){
     var c1Icon = $('.cnt01 .texts .btns div');
     var c1Li = $('.cnt01 .texts ul.bar li');
     var c1Index = 0;
-    var c1Txts = $('.cnt01 .texts .txts');
+    var c1Txts = $('.cnt01 .texts .txts .txt');
     var c1ImgGroup = $('.cnt01 .imgGroup');
-    var infiSlideLeft = function(imgGroup, index, li){
+    var infiSlideLeft = function(imgGroup, index, li, txts){
         index--;
         if(index < 0){
             index = 3;
@@ -20,10 +20,12 @@ $(function(){
             });
             li.removeClass('show');
             li.eq(index).addClass('show');
+            txts.css({width : 0});
+            txts.eq(index).css({width : '100%'});
         });
         return index;
     }
-    var infiSlideRight = function(imgGroup, index, li){
+    var infiSlideRight = function(imgGroup, index, li,txts){
         index++;
         if(index > 3){
             index = 0;
@@ -37,6 +39,8 @@ $(function(){
             });
             li.removeClass('show');
             li.eq(index).addClass('show');
+            txts.css({width : 0});
+            txts.eq(index).css({width : '100%'});
         });
         return index;
     }
@@ -47,18 +51,10 @@ $(function(){
         marginLeft : '-100%'
     });
     c1Btn.first().click(function(){
-        c1Index = infiSlideLeft(c1ImgGroup, c1Index, c1Li);
-        c1Txts.find('.txt:last').fadeOut(500, function(){
-            $(this).prependTo(c1Txts);
-            $(this).fadeIn(0);
-        });
+        c1Index = infiSlideLeft(c1ImgGroup, c1Index, c1Li, c1Txts);
     });
     c1Btn.last().click(function(){
-        c1Index = infiSlideRight(c1ImgGroup, c1Index, c1Li);
-        c1Txts.find('.txt:first').fadeOut(0, function(){
-            $(this).appendTo(c1Txts);
-            $(this).fadeIn(500);
-        });
+        c1Index = infiSlideRight(c1ImgGroup, c1Index, c1Li, c1Txts);
     });
 
     c1Icon.click(function(){
@@ -69,17 +65,7 @@ $(function(){
             j += 4;
         }
         for(var i = 0; i < j; i++){
-            c1Index = infiSlideRight(c1ImgGroup, c1Index, c1Li);
-            c1Txts.find('.txt:first').animate({
-                opacity : 0,
-                display : 'none'
-            }, 0, function(){
-                $(this).appendTo(c1Txts);
-                $(this).animate({
-                    opacity : 1,
-                    display : 'block'
-                }, 500);
-            });
+            c1Index = infiSlideRight(c1ImgGroup, c1Index, c1Li, c1Txts);
         }
     });
 

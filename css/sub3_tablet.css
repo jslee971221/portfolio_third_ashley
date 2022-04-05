@@ -1,0 +1,267 @@
+body, html{
+    overflow-x: hidden;
+}
+div.hdrWrap{
+    background-color: #222;
+}
+div.hdrWrap>div.header{
+    width: 90%;
+    max-width: 700px;
+    position: relative;
+}
+div.hdrWrap>div.header>div.hdrLeft{
+    float: none;
+    width: 100%;
+}
+div.hdrWrap>div.header>div.hdrLeft h1{
+    width: calc(100% / 8 * 1.5);
+    margin: 0 auto;
+    height: 40px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    float: none;
+    width: 100%;
+    margin-left: calc(100% / 8 * 2 - 20px);
+}
+div.hdrWrap>div.header>div.hdrMid>ul.nav>li{
+    font-size: 15px;
+    line-height: 80px;
+}
+div.hdrWrap>div.header>div.hdrRight{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+div.hdrWrap>div.header>div.hdrMid{
+    width: 60%;
+    margin: 0 auto;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li{
+    display: none;
+    margin-left: 0;
+    font-size: 20px;
+}
+div.hdrWrap>div.header>div.hdrRight>ul.menu>li:nth-child(4){
+    display: block;
+}
+div.mainWrap{
+    height: 120px;
+    margin-top: 0px;
+}
+div.mainWrap>div.main{
+    width: 90%;
+    max-width: 700px;
+}
+div.mainWrap>div.main>h2{
+    padding-top: 20px;
+}
+
+div.bnrWrap:nth-child(3){
+    margin-top: 0px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts{
+    width: 90%;
+    max-width: 700px;
+    margin-top: -460px;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h2{
+    line-height: 40px;
+    width: calc(100% / 8 * 3);
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #fff;
+    
+}
+div.bnrWrap>div.banner.bnr01>div.texts>h2>span{
+    display: none;
+}
+div.bnrWrap>div.banner.bnr01>div.texts>div.years{
+    box-shadow: none;
+}
+
+
+div.bnrWrap>div.banner.bnr01>div.bgView>div.bgGroup{
+    height: 240px;
+}
+div.bnrWrap>div.banner.bnr01>div.bgView>div.bgGroup>div.bgImg{
+    height: 240px;
+}
+div.bnrWrap:nth-child(3)~div.bnrWrap>div.banner{
+    width: 90%;
+    max-width: 700px;
+}
+div.bnrWrap:nth-child(4){
+    margin-top: 160px;
+}
+div.bnrWrap>div.banner.bnr02>div.section>div.images{
+    width: calc(100% / 8 * 6 + 40px)
+}
+div.bnrWrap>div.banner.bnr02>div.section>div.images>div.imgGroup{
+    width: 233.33%;
+}
+
+div.cntWrap>div.content.cnt01>div.header{
+    margin-left: calc((100vw - 700px) / -2);
+}
+
+div.cntWrap>div.content.cnt01>div.header>div.txts{
+    width: 90%;
+    max-width: 700px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+div.cntWrap>div.content.cnt01>div.header>div.txts>h2{
+    font-size: 35px;
+}
+div.cntWrap>div.content.cnt01>div.header>div.txts>h5{
+    margin-top: 80px;
+}
+div.cntWrap>div.content.cnt01>div.section{
+    width: calc(100% / 8 * 6 + 40px);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article{
+    width: calc(50% - 20px);
+    margin: 0 10px;
+    margin-top: 0px;
+}
+div.cntWrap>div.content.cnt01>div.section>div.article:nth-child(2)~div.article{
+    margin-top: 20px;
+}
+div.bnrWrap>div.banner.bnr03>div.header>h2{
+    font-size: 35px;
+    color: #333;
+}
+div.bnrWrap>div.banner.bnr03>div.section{
+    width: 100%;
+    margin-top: 0px;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts{
+    width: calc(100% / 8 * 6);
+    height: 80px;
+    float: none;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/sub_3/sub3-bnr-02.png');
+    padding-right: calc(100% / 8 * 1.5);
+    margin-top: 40px;
+    padding-left: calc(100% / 8 - 20px);
+    padding-top: 20px;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts>div.icon{
+    float: left;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts>p{
+    width: calc(75%);
+    padding-left: 0px;
+    float: left;
+    margin: 0 auto;
+    height: 20px;
+    margin-left: 40px;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts>div.btn{
+    width: 100%;
+    float: left;
+    text-align: right;
+    margin-top: -20px;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts>div.btn>span{
+    float: none;
+}
+div.bnrWrap>div.banner.bnr03>div.section>div.texts>div.btn>i{
+    float: none;
+
+}
+div.bnrWrap>div.banner.bnr04>div.bgImg{
+    margin-left: calc((100vw - 700px) / -2);
+}
+div.bnrWrap>div.banner.bnr04>div.partner{
+    width: 100%;
+    padding-left: calc(100% / 8);
+}
+div.bnrWrap>div.banner.bnr04>div.phone::before{
+    height: 240px;
+}
+div.bnrWrap>div.banner.bnr04>div.phone{
+    height: 240px;
+    width: calc(100% / 8 * 2 + 20px);
+    float: right;
+}
+div.bnrWrap>div.banner.bnr04>div.phone>h3{
+    margin-top: 60px;
+}
+div.bnrWrap>div.banner.bnr04>div.phone>p{
+    width: calc(80%);
+    margin: 0 auto;
+}
+div.bnrWrap>div.banner.bnr04>div.partner>div.btn{
+    width: calc(100% / 8 * 2);
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.top>div.txt{
+    width: 100%;
+    float: none;
+    padding-left: calc(100% / 8);
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.top>div.image{
+    display: none;
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>h2{
+    margin-left: calc(100% / 8);
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>div.txts{
+    padding-left: calc(100% / 8);
+    padding-right: calc(100% / 8 * 0.4);
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>div.txts>div.txt{
+    width: 80%;
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>div.txts>div.btns{
+    width: 20%;
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>div.txts>div.btns>div.btn{
+    width: 80%;
+    float: none;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+div.bnrWrap>div.banner.bnr04>div.texts>div.btm>div.txts>div.btns>div.btn:nth-child(1){
+    margin-left: 0px;
+}
+div.ftrWrap>div.footer{
+    width: 90%;
+    max-width: 700px;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4{
+    width: calc(100% / 8 * 1.5);
+    margin-left: 0px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+    border-right: 1px solid white;
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(1){
+    margin-left: calc(100% / 8 * 1.5);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(2){
+    width: calc(100% / 8 * 2.3);
+}
+div.ftrWrap>div.footer>div.ftrTop>h4:nth-child(3){
+    border: none;
+}
+div.ftrWrap>div.footer>div.ftrBtm>p{
+    width: calc(100% / 8 * 6);
+    float: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+div.ftrWrap>div.footer>div.ftrBtm>select{
+    width: calc(100% / 8 * 2 - 20px);
+    margin: 0 auto;
+    float: none;
+    margin-top: 20px;
+}
