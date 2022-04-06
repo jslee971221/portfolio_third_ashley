@@ -9,15 +9,20 @@ $(function(){
     var slideI = 0;
     var artGroup = $('.artMid .artGroup');
     var artLen = $('.artMid .artGroup .article').length;
-    
+    var wd = $(window).width();
     thumb.click(function(){
         var th = $(this);
         i = th.index();
         if(th.parent().attr('class') == 'artGroup g2'){
             i += 5;
         }
-        view.html(th.html());
-        view.find('.image').css('backgroundImage', th.find('.image').css('backgroundImage'));
+        slideI = i;
+        if(wd <= 1024){
+            artGroup.css('marginLeft', -100 * slideI + '%');
+        }else{
+            view.html(th.html());
+            view.find('.image').css('backgroundImage', th.find('.image').css('backgroundImage'));
+        }
     });
 
     view.on('click', '.btn', function(){
