@@ -1,5 +1,6 @@
 $(function(){
     var thumb = $('.artBtm .article');
+    var heart = $('.artMid .article .btn');
     var view = $('.artMid .article')
     var more = $('.section>.btn');
     var i = 0;
@@ -17,15 +18,18 @@ $(function(){
             i += 5;
         }
         slideI = i;
-        if(wd <= 1024){
-            artGroup.css('marginLeft', -100 * slideI + '%');
-        }else{
-            view.html(th.html());
-            view.find('.image').css('backgroundImage', th.find('.image').css('backgroundImage'));
-        }
+        artGroup.css('marginLeft', -100 * slideI + '%');
+        // if(wd <= 1024){
+        //     artGroup.css('marginLeft', -100 * slideI + '%');
+
+        // }else{
+        //     view.html(th.html());
+        //     view.find('.image').css('backgroundImage', th.find('.image').css('backgroundImage'));
+        // }
+
     });
 
-    view.on('click', '.btn', function(){
+    heart.on('click', function(){
         if(likec == -1){
             var icon = $(this).find('i');
             if(icon.attr('class') == 'xi-heart-o'){
@@ -33,20 +37,52 @@ $(function(){
             }
         }
 
+        
         if(likec == 1){
-            view.find('i').removeClass('xi-heart-o');
-            view.find('i').addClass('xi-heart');
-            var count = Number($('.texts span').eq(0).text());
-            $('.texts span').eq(0).text(count + 1);
+            view.eq(slideI).find('i').removeClass('xi-heart-o');
+            view.eq(slideI).find('i').addClass('xi-heart');
+            var count = Number($('.texts span').eq(slideI).text());
+            $('.texts span').eq(slideI).text(count + 1);
         }else{
-            view.find('i').removeClass('xi-heart');
-            view.find('i').addClass('xi-heart-o');
-            var count = Number($('.texts span').eq(0).text());
-            $('.texts span').eq(0).text(count - 1);
+            view.eq(slideI).find('i').removeClass('xi-heart');
+            view.eq(slideI).find('i').addClass('xi-heart-o');
+            var count = Number($('.texts span').eq(slideI).text());
+            $('.texts span').eq(slideI).text(count - 1);
         }
+        thumb.eq(slideI).find('.texts').html(view.eq(slideI).find('.texts').html());
+        thumb.eq(slideI).find('.image .btn').html(view.eq(slideI).find('.image .btn').html());
+        
+        // if(wd <= 1024){
+        //     if(likec == 1){
+        //         view.eq(slideI).find('i').removeClass('xi-heart-o');
+        //         view.eq(slideI).find('i').addClass('xi-heart');
+        //         var count = Number($('.texts span').eq(0).text());
+        //         $('.texts span').eq(0).text(count + 1);
+        //     }else{
+        //         view.eq(slideI).find('i').removeClass('xi-heart');
+        //         view.eq(slideI).find('i').addClass('xi-heart-o');
+        //         var count = Number($('.texts span').eq(0).text());
+        //         $('.texts span').eq(0).text(count - 1);
+        //     }
+        //     thumb.eq(slideI).find('.texts').html(view.eq(slideI).find('.texts').html());
+        //     thumb.eq(slideI).find('.image .btn').html(view.eq(slideI).find('.image .btn').html());
+        // }else{
+        //     if(likec == 1){
+        //         view.find('i').removeClass('xi-heart-o');
+        //         view.find('i').addClass('xi-heart');
+        //         var count = Number($('.texts span').eq(0).text());
+        //         $('.texts span').eq(0).text(count + 1);
+        //     }else{
+        //         view.find('i').removeClass('xi-heart');
+        //         view.find('i').addClass('xi-heart-o');
+        //         var count = Number($('.texts span').eq(0).text());
+        //         $('.texts span').eq(0).text(count - 1);
+        //     }
+
+        //     thumb.eq(i).find('.texts').html(view.find('.texts').html());
+        //     thumb.eq(i).find('.image .btn').html(view.find('.image .btn').html());
+        // }
         likec *= -1;
-        thumb.eq(i).find('.texts').html(view.find('.texts').html());
-        thumb.eq(i).find('.image .btn').html(view.find('.image .btn').html());
     });
 
     more.click(function(){
