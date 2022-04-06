@@ -54,65 +54,65 @@ div.cntWrap>div.content h2{
 
 }
 
-div.cntWrap>div.content.cnt01>div.section>div.texts{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
     width: calc(50% - 20px);
     position: relative;
     margin-top: 0px;
     height: 240px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts p{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts p{
     display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>ul.bar{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>ul.bar{
     width: 200%;
     display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>ul.bar>li{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>ul.bar>li{
     width: 50%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btns{
     width: 100%;
     height: 160px;
     position: absolute;
     top: 80px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btns>div{
     margin-left: 0px;
     width: 50%;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div>i{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btns>div>i{
     line-height: 60px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.btns>div span{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.btns>div span{
     display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.txts{
     height: 80px;
     width: calc(100% - 20px);
     position: absolute;
     top: 0px;
     left: 20px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts>div.txt{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.txts>div.txt{
     margin-top: 0px;
     margin-top: 20px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts>div.txts>div.txt>h3{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts>div.txts>div.txt>h3{
     line-height: 20px;
     font-size: 13px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
     margin-top: -40px;
     position: relative;
     height: 320px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView>div.imgGroup>div.image{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.imageView>div.imgGroup>div.image{
     height: 280px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>div.btns{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.btns{
     display: none;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>ul.paging{
     width: 35%;
     height: 40px;
     position: absolute;
@@ -123,14 +123,14 @@ div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging{
     display: flex;
     justify-content: space-between;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging>li{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>ul.paging>li{
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: #333;
     margin-top: 2.5px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>ul.paging>li.show{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>ul.paging>li.show{
     width: 15px;
     height: 15px;
     background-color: #151e63;

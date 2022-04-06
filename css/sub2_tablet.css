@@ -65,20 +65,20 @@ div.cntWrap>div.content{
 div.cntWrap>div.content.cnt01>div.header{
     margin-left: calc(100% / 8);
 }
-div.cntWrap>div.content.cnt01>div.section>div.texts{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.texts{
     padding: 0;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image{
     height: 360px;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>div.btns{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.btns{
     color: #fff;
 }
-div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.imageView{
     width: 100%;
 }
 
-div.cntWrap>div.content.cnt01>div.section>div.image>div.imageView>div.imgGroup>div.image{
+div.cntWrap>div.content.cnt01>div.section>div.article>div.image>div.imageView>div.imgGroup>div.image{
     height: 360px;
 }
 div.bnrWrap>div.banner{
