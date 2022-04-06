@@ -26,7 +26,7 @@ $(function(){
     }else if(wd > 420 && wd <= 1024){
         mv = -33.33;
     }else{
-        mv = 0;
+        mv = -22;
     }
     bgGroup.css({marginLeft : '-100%'});
     bgGroup.find('.bgImg:last').prependTo(bgGroup);

@@ -8,6 +8,7 @@ $(function(){
     var slideBtns = $('.artMid .btns i');
     var slideI = 0;
     var artGroup = $('.artMid .artGroup');
+    var artLen = $('.artMid .artGroup .article').length;
     
     thumb.click(function(){
         var th = $(this);
@@ -56,9 +57,14 @@ $(function(){
 
     
     slideBtns.first().click(function(){
-        slideI++;
+        slideI--;
+        slideI = (slideI + artLen) % artLen;
         artGroup.css('marginLeft', -100 * slideI + '%');
     });
-
+    slideBtns.last().click(function(){
+        slideI++;
+        slideI = slideI % artLen;
+        artGroup.css('marginLeft', -100 * slideI + '%');
+    });
 
 });

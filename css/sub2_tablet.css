@@ -217,6 +217,9 @@ div.cntWrap>div.content.cnt03>div.section div.article{
     top: 0;
     left: 0;
 }
+div.cntWrap>div.content.cnt03>div.section div.texts span{
+    display: none;
+}
 div.cntWrap>div.content.cnt03>div.section>div.artLeft>div.article>div.image{
     height: 400px;
 }
