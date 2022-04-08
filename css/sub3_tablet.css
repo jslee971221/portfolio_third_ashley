@@ -112,7 +112,7 @@ div.bnrWrap>div.banner.bnr02>div.section>div.images>div.imgGroup{
 }
 
 div.cntWrap>div.content.cnt01>div.header{
-    margin-left: calc((100vw - 700px) / -2);
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
 }
 
 div.cntWrap>div.content.cnt01{
@@ -189,7 +189,7 @@ div.bnrWrap>div.banner.bnr03>div.section>div.texts>div.btn>i{
 
 }
 div.bnrWrap>div.banner.bnr04>div.bgImg{
-    margin-left: calc((100vw - 700px) / -2);
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
 }
 div.bnrWrap>div.banner.bnr04>div.partner{
     width: 100%;

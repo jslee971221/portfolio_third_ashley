@@ -232,11 +232,13 @@ div.bnrWrap>div.banner.bnr01>div.bnrLeft{
     top: 240px;
     height: 240px;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.ovrGrid{
+div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.image{
     width: 100%;
+    min-width: 100%;
     left: 0;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.ovrGrid>div.image{
+div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.image>div.ovrGrid{
+    width: 100%;
     background-image: url('../images/tab-at\ home_01.png');
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight{
@@ -244,10 +246,12 @@ div.bnrWrap>div.banner.bnr01>div.bnrRight{
     left: 0;
     height: 240px;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid{
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.image{
+    min-width: 100%;
     width: 100%;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid>div.image{
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.image>div.ovrGrid{
+    width: 100%;
     height: 240px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts{

@@ -299,7 +299,7 @@ div.cntWrap>div.content.cnt01>div.header{
     background-size: cover;
     background-image: url('../images/sub_3/sub3-cnt03-01.png');
     width: 100vw;
-    margin-left: calc((100vw - 1080px) / -2);
+    margin-left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
 }
 div.cntWrap>div.content.cnt01>div.header>div.txts{
     width: 80%;
@@ -446,7 +446,7 @@ div.bnrWrap>div.banner.bnr04::after{
 div.bnrWrap>div.banner.bnr04>div.bgImg{
     width: 100vw;
     height: 360px;
-    margin-left: calc((100vw - 1080px) / -2);
+    margin-left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

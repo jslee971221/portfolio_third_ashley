@@ -128,7 +128,7 @@ div.bnrWrap>div.banner.bnr01{
 div.bnrWrap>div.banner.bnr01>div.bnrRight{
     height: 120px;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid>div.image{
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.image>div.ovrGrid{
     height: 120px;
 }
 div.bnrWrap>div.banner.bnr01>div.bnrRight>div.texts{

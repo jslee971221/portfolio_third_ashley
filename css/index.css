@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@200&display=swap');
 body{
+    width: 100vw;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
@@ -290,7 +291,7 @@ div.cntWrap>div.content.cnt02>div.header>div.bgImg{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../images/cnt02_bg.png');
-    margin-left: calc((100vw - 1080px) / -2);
+    margin-left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
 }
 div.cntWrap>div.content.cnt02>div.section{
     margin-top: -320px;
@@ -444,13 +445,14 @@ div.bnrWrap>div.banner.bnr01>div.bnrLeft{
     height: 320px;
     top: 80px;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.ovrGrid{
+div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.image{
     width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100%);
     position: absolute;
-    left: calc((100vw - 1080px) / -2);
+    left: min(calc((100vw - 1080px) / -2), calc((100vw - 80vw) / -2));
     z-index: 3;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.ovrGrid>div.image{
+div.bnrWrap>div.banner.bnr01>div.bnrLeft>div.image>div.ovrGrid{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -463,12 +465,16 @@ div.bnrWrap>div.banner.bnr01>div.bnrRight{
     left: calc(100% / 12 * 4 + 20px);
     height: 320px;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid{
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.image{
+    width: 100%;
     width: calc((100vw - 1080px) / 2 + 100%);
+    min-width: calc((100vw - 80vw) / 2 + 100% - 20px);
     position: absolute;
+    top: 0;
     left: 0;
 }
-div.bnrWrap>div.banner.bnr01>div.bnrRight>div.ovrGrid>div.image{
+div.bnrWrap>div.banner.bnr01>div.bnrRight>div.image>div.ovrGrid{
+    
     height: 280px;
     background-position: center;
     background-repeat: no-repeat;

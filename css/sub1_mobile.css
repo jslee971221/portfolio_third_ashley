@@ -27,7 +27,7 @@ div.mainWrap>div.main>h2{
 }
 
 div.cntWrap>div.content>div.header>div.bgImg{
-    margin-left: calc((100vw - 380px) / -2);
+    margin-left: min(calc((100vw - 380px) / -2), calc((100vw - 90vw) / -2));
 }
 div.cntWrap>div.content>div.header>div.texts{
     margin-top: -40px;
@@ -49,7 +49,7 @@ div.cntWrap>div.content>div.header>div.texts>p{
     margin-top: 0px;
 }
 div.cntWrap>div.content>div.section>div.artTop{
-    margin-left: calc((120vw - 380px) / -2);
+    margin-left: min(calc((100vw - 380px) / -2 - 10vw), calc((100vw - 90vw) / -2 - 10vw));
 }
 div.cntWrap>div.content>div.section>div.artTop>div.article>div.image{
     height: 80px;

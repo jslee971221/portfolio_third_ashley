@@ -78,7 +78,7 @@ div.cntWrap>div.content>div.header>div.texts>h5>br{
 }
 div.cntWrap>div.content>div.header>div.bgImg{
     height: 120px;
-    margin-left: calc((100vw - 700px) / -2);
+    margin-left: min(calc((100vw - 700px) / -2), calc((100vw - 90vw) / -2));
 }
 
 div.cntWrap>div.content>div.header>div.texts{
@@ -91,7 +91,7 @@ div.cntWrap>div.content>div.header>div.texts>p{
 
 div.cntWrap>div.content>div.section>div.artTop{
     width: 120vw;
-    margin-left: calc((120vw - 700px) / -2);
+    margin-left: min(calc((100vw - 700px) / -2 - 10vw), calc((100vw - 90vw) / -2 - 10vw));
 }
 div.cntWrap>div.content>div.section>div.artMid{
     width: calc(100% / 8 * 6);
