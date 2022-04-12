@@ -12,6 +12,12 @@ h2, h3{
 .xi-heart{
     color: red;
 }
+.bg, .image{
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+    color: transparent;
+}
 div.hdrWrap{
     color: #fff;
     position: relative;

@@ -7,7 +7,12 @@ body{
 h2, h3{
     font-family: 'DM Serif Display', serif;
 }
-
+.bg, .image{
+    font-size: 0;
+    line-height: 0;
+    text-shadow: none;
+    color: transparent;
+}
 .btn{
     cursor: pointer;
 }
